@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ShimmerEffectDemo</string>
+    <string name="lable_product_list">Products with Shimmer Effect</string>
+</resources>
