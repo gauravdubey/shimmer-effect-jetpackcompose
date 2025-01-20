@@ -27,7 +27,7 @@ fun ProductListScreen() {
     val products = remember { sampleProducts }
 
     LaunchedEffect(Unit) {
-        delay(3000)
+        delay(5000)
         isLoading = false
     }
     ProductList(products = if (isLoading) null else products, isLoading = isLoading)
